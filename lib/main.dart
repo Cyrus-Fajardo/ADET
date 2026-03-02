@@ -1,20 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:fajardo_thactivity2/pages/zodiacfinder_screen.dart';
-void main() {
-  runApp(const MyApp());
-}
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+import 'pages/input_screen.dart';
 
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Zodiac Finder App",
-      theme: ThemeData(
-        colorSchemeSeed: Colors.blue,
-        useMaterial3: true
-      ),
-      home: ZodiacFinderPage(),
+      title: 'Cosmic Profile',
+      theme: ThemeData(primarySwatch: Colors.blue,useMaterial3: true),
+      home: InputScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
