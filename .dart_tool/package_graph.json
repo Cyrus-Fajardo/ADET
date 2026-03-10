@@ -1,10 +1,10 @@
 {
   "roots": [
-    "fajardo_thactivity2"
+    "listview_app"
   ],
   "packages": [
     {
-      "name": "fajardo_thactivity2",
+      "name": "listview_app",
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
