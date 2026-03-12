@@ -15,7 +15,8 @@ class StaticListView extends StatelessWidget {
         children: [
           Container(color: Colors.black54,padding: EdgeInsets.all(16),child: Center(child: Row(
             children: [
-              Image.asset('assets/images/watching-a-movie.png'),
+              Image.asset('assets/images/watching-a-movie.png',width: 40,),
+              SizedBox(width: 10,),
               Text("MOVIES",style: TextStyle(fontSize: 16),),
             ],
           ))),

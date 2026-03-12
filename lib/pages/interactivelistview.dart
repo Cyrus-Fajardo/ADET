@@ -8,6 +8,7 @@ class InteractiveListView extends StatefulWidget {
 }
 
 class _InteractiveListViewState extends State<InteractiveListView> {
+  final List<String> items=List<String>.generate(20,(i)=>"Item $i");
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +16,25 @@ class _InteractiveListViewState extends State<InteractiveListView> {
         title: Text("Interactive List"),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
-      body: ListView(
+      body: ListView.builder(
+        itemCount: items.length,
+        itemBuilder: (context,index){
+          return Dismissible(
+            key: Key(items[index]),
+            onDismissed: (direction) {
+              setState(() {
+                items.removeAt(index);
+              });
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(content: Text("Item $index dismissed"))
+              );
+            },
+            background: Container(color: Colors.red,),
+            child: ListTile(
+              title: Text('${items[index]}'),
+            ),
+          );
+        },
       ),
     );
   }
