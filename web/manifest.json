@@ -1,6 +1,6 @@
 {
-    "name": "listview_app",
-    "short_name": "listview_app",
+    "name": "fajardo_sweets",
+    "short_name": "fajardo_sweets",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
