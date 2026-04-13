@@ -1,4 +1,4 @@
-import 'package:fajardo_sweets/pages/splash_screen.dart';
+import 'package:her_garden/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
       title: 'Her Garden',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
         scaffoldBackgroundColor: Colors.pink.shade50,
       ),

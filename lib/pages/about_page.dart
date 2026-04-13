@@ -23,7 +23,7 @@ class AboutPage extends StatelessWidget {
             const SizedBox(height: 10),
             const Text('Purpose: A digital garden, designed solely to curate the hue of her heart.'),
             const SizedBox(height: 10),
-            const Text('Technologies Used: Flutter, Dart'),
+            const Text('Technologies Used: Flutter, Dart, 6 twin packs of Kopiko Black 3 in 1, A bottle of redhorse, 2 cases of San Mig Light, and a pack of Marlboro Reds.'),
             const SizedBox(height: 20),
             const Text(
               'Developer Profile',
@@ -31,7 +31,7 @@ class AboutPage extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const Text('Developer: Cyrus J. Fajardo, ID: 24B2449'),
-            const Text('Bio: Fueled by caffeine, insomnia, and through sheer fucking will to make ends meet and pass'),
+            const Text('Bio: Fueled by caffeine, liquor, insomnia, and through sheer fucking will to make ends meet and pass'),
             ],
         ),
       ),

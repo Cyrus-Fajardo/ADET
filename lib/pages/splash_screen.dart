@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:fajardo_sweets/pages/sweets_dashboard.dart';
+import 'package:her_garden/pages/sweets_dashboard.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

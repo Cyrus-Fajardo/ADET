@@ -1,17 +1,20 @@
-import 'package:fajardo_sweets/models/product.dart';
+import 'package:her_garden/models/product.dart';
 import 'package:flutter/material.dart';
 
 class ProductDetailPage extends StatelessWidget {
   final Product product;
+  final void Function(Product) onAddToCart;
 
-  const ProductDetailPage({super.key, required this.product});
+  const ProductDetailPage({
+    super.key,
+    required this.product,
+    required this.onAddToCart,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(product.name),
-      ),
+      appBar: AppBar(title: Text(product.name)),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -46,12 +49,12 @@ class ProductDetailPage extends StatelessWidget {
             Center(
               child: ElevatedButton(
                 onPressed: () {
-                  // Buy Now action
+                  onAddToCart(product);
                   ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('Buying ${product.name}')),
+                    SnackBar(content: Text('${product.name} added to cart!')),
                   );
                 },
-                child: const Text('Buy Now'),
+                child: const Text('Add to Cart'),
               ),
             ),
           ],

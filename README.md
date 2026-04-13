@@ -1,4 +1,4 @@
-# fajardo_sweets
+# her_garden
 
 A new Flutter project.
 

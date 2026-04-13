@@ -1,5 +1,5 @@
-import 'package:fajardo_sweets/models/product.dart';
-import 'package:fajardo_sweets/widgets/product_item_list_view.dart';
+import 'package:her_garden/models/product.dart';
+import 'package:her_garden/widgets/product_item_list_view.dart';
 import 'package:flutter/material.dart';
 
 class ProductPage extends StatefulWidget {
@@ -7,210 +7,240 @@ class ProductPage extends StatefulWidget {
     Product(
       id: '1',
       name: 'African Daisy',
-      description: 'A bright pink African daisy with a radiant yellow center and fresh petals.',
+      description:
+          'A bright pink African daisy with a radiant yellow center and fresh petals.',
       price: 80,
       imageUrl: 'assets/images/africanDaisy.jpg',
     ),
     Product(
       id: '2',
       name: 'Allium',
-      description: 'A ball-shaped allium bloom with clustered pink petals and a delicate garden feel.',
+      description:
+          'A ball-shaped allium bloom with clustered pink petals and a delicate garden feel.',
       price: 90,
       imageUrl: 'assets/images/allium.jpg',
     ),
     Product(
       id: '3',
       name: 'Alstroemeria',
-      description: 'A soft pink alstroemeria with intricate markings and elegant floral texture.',
+      description:
+          'A soft pink alstroemeria with intricate markings and elegant floral texture.',
       price: 75,
       imageUrl: 'assets/images/alstroemeria.jpg',
     ),
     Product(
       id: '4',
       name: 'Anemone',
-      description: 'A vibrant pink anemone with a dark center and graceful, open petals.',
+      description:
+          'A vibrant pink anemone with a dark center and graceful, open petals.',
       price: 95,
       imageUrl: 'assets/images/anemone.jpg',
     ),
     Product(
       id: '5',
       name: 'Aster',
-      description: 'A graceful aster with striking pink petals and a bright yellow center.',
+      description:
+          'A graceful aster with striking pink petals and a bright yellow center.',
       price: 84,
       imageUrl: 'assets/images/aster.jpg',
     ),
     Product(
       id: '6',
       name: 'Astilbe',
-      description: 'A feathery astilbe with soft pink plumes and a romantic garden feel.',
+      description:
+          'A feathery astilbe with soft pink plumes and a romantic garden feel.',
       price: 86,
       imageUrl: 'assets/images/astilbe.jpg',
     ),
     Product(
       id: '7',
       name: 'Beardtongue',
-      description: 'A charming beardtongue with delicate pink spires and elegant form.',
+      description:
+          'A charming beardtongue with delicate pink spires and elegant form.',
       price: 83,
       imageUrl: 'assets/images/beardtongue.jpg',
     ),
     Product(
       id: '8',
       name: 'Begonia',
-      description: 'A vivid begonia with lush, soft petals and a warm garden glow.',
+      description:
+          'A vivid begonia with lush, soft petals and a warm garden glow.',
       price: 85,
       imageUrl: 'assets/images/begonia.jpg',
     ),
     Product(
       id: '9',
       name: 'Bleeding Heart',
-      description: 'A romantic bleeding heart with delicate, heart-shaped pink blooms.',
+      description:
+          'A romantic bleeding heart with delicate, heart-shaped pink blooms.',
       price: 88,
       imageUrl: 'assets/images/bleedingHeart.jpg',
     ),
     Product(
       id: '10',
       name: 'Bougainvillea',
-      description: 'A bright bougainvillea with bold pink bracts and a tropical flair.',
+      description:
+          'A bright bougainvillea with bold pink bracts and a tropical flair.',
       price: 92,
       imageUrl: 'assets/images/bougainvillea.jpg',
     ),
     Product(
       id: '11',
       name: 'Butterfly Bush',
-      description: 'A fragrant butterfly bush with clusters of deep pink blooms.',
+      description:
+          'A fragrant butterfly bush with clusters of deep pink blooms.',
       price: 84,
       imageUrl: 'assets/images/butterflyBush.jpg',
     ),
     Product(
       id: '12',
       name: 'Calla Lily',
-      description: 'An elegant calla lily with a smooth, trumpet-shaped blossom and soft colors.',
+      description:
+          'An elegant calla lily with a smooth, trumpet-shaped blossom and soft colors.',
       price: 98,
       imageUrl: 'assets/images/callaLily.jpg',
     ),
     Product(
       id: '13',
       name: 'Camellia',
-      description: 'A lush camellia with layered petals and a classic, romantic style.',
+      description:
+          'A lush camellia with layered petals and a classic, romantic style.',
       price: 94,
       imageUrl: 'assets/images/camellia.jpg',
     ),
     Product(
       id: '14',
       name: 'Carnation',
-      description: 'A ruffled carnation with rich pink tones and a timeless bloom shape.',
+      description:
+          'A ruffled carnation with rich pink tones and a timeless bloom shape.',
       price: 78,
       imageUrl: 'assets/images/carnation.jpg',
     ),
     Product(
       id: '15',
       name: 'Cherry Blossom',
-      description: 'A soft cherry blossom with delicate petals and a gentle springtime feel.',
+      description:
+          'A soft cherry blossom with delicate petals and a gentle springtime feel.',
       price: 89,
       imageUrl: 'assets/images/cherryBlossom.jpg',
     ),
     Product(
       id: '16',
       name: 'Chrysanthemum',
-      description: 'A bold chrysanthemum with a full, textured bloom and vibrant pink hues.',
+      description:
+          'A bold chrysanthemum with a full, textured bloom and vibrant pink hues.',
       price: 91,
       imageUrl: 'assets/images/chrysanthemum.jpg',
     ),
     Product(
       id: '17',
       name: 'Clematis',
-      description: 'A star-shaped clematis with rich pink petals and climbing garden appeal.',
+      description:
+          'A star-shaped clematis with rich pink petals and climbing garden appeal.',
       price: 87,
       imageUrl: 'assets/images/clematis.jpg',
     ),
     Product(
       id: '18',
       name: 'Coneflower',
-      description: 'A cheerful coneflower with a distinctive center and pink radiating petals.',
+      description:
+          'A cheerful coneflower with a distinctive center and pink radiating petals.',
       price: 82,
       imageUrl: 'assets/images/coneflower.jpg',
     ),
     Product(
       id: '19',
       name: 'Cosmos',
-      description: 'A delicate cosmos with soft pink petals and a light, airy presence.',
+      description:
+          'A delicate cosmos with soft pink petals and a light, airy presence.',
       price: 76,
       imageUrl: 'assets/images/cosmos.jpg',
     ),
     Product(
       id: '20',
       name: 'Dahlia',
-      description: 'A richly layered dahlia with bold pink petals and summer elegance.',
+      description:
+          'A richly layered dahlia with bold pink petals and summer elegance.',
       price: 90,
       imageUrl: 'assets/images/dahlia.jpg',
     ),
     Product(
       id: '21',
       name: 'Dianthus',
-      description: 'A fragrant dianthus with frilled petals and bright, cheerful color.',
+      description:
+          'A fragrant dianthus with frilled petals and bright, cheerful color.',
       price: 79,
       imageUrl: 'assets/images/dianthus.jpg',
     ),
     Product(
       id: '22',
       name: 'Evening Primrose',
-      description: 'A soft evening primrose with delicate petals and calming garden charm.',
+      description:
+          'A soft evening primrose with delicate petals and calming garden charm.',
       price: 81,
       imageUrl: 'assets/images/eveningPrimrose.jpg',
     ),
     Product(
       id: '23',
       name: 'Foxglove',
-      description: 'A tall foxglove with bell-shaped pink blooms that add dramatic vertical interest.',
+      description:
+          'A tall foxglove with bell-shaped pink blooms that add dramatic vertical interest.',
       price: 86,
       imageUrl: 'assets/images/foxglove.jpg',
     ),
     Product(
       id: '24',
       name: 'Fuschia',
-      description: 'A vibrant fuschia with dangling blooms and bold pink-and-purple tones.',
+      description:
+          'A vibrant fuschia with dangling blooms and bold pink-and-purple tones.',
       price: 88,
       imageUrl: 'assets/images/fuschia.jpg',
     ),
     Product(
       id: '25',
       name: 'Geranium',
-      description: 'A cheerful geranium with clusters of bright pink flowers and a classic cottage look.',
+      description:
+          'A cheerful geranium with clusters of bright pink flowers and a classic cottage look.',
       price: 80,
       imageUrl: 'assets/images/geranium.jpg',
     ),
     Product(
       id: '26',
       name: 'Gladiolus',
-      description: 'A stately gladiolus with towering spikes of striking pink blossoms.',
+      description:
+          'A stately gladiolus with towering spikes of striking pink blossoms.',
       price: 93,
       imageUrl: 'assets/images/gladiolus.jpg',
     ),
     Product(
       id: '27',
       name: 'Gomphrena',
-      description: 'A playful gomphrena with fuzzy pink flower clusters full of texture.',
+      description:
+          'A playful gomphrena with fuzzy pink flower clusters full of texture.',
       price: 77,
       imageUrl: 'assets/images/gomphrena.jpg',
     ),
     Product(
       id: '28',
       name: 'Hibiscus',
-      description: 'A tropical hibiscus with large pink petals and a bold, beautiful center.',
+      description:
+          'A tropical hibiscus with large pink petals and a bold, beautiful center.',
       price: 96,
       imageUrl: 'assets/images/hibiscus.jpg',
     ),
     Product(
       id: '29',
       name: 'Hollyhock',
-      description: 'A cottage garden hollyhock with tall stems and clustered pink blossoms.',
+      description:
+          'A cottage garden hollyhock with tall stems and clustered pink blossoms.',
       price: 88,
       imageUrl: 'assets/images/hollyhock.jpg',
     ),
     Product(
       id: '30',
       name: 'Hyacinth',
-      description: 'A fragrant hyacinth with dense pink flower spikes and springtime charm.',
+      description:
+          'A fragrant hyacinth with dense pink flower spikes and springtime charm.',
       price: 91,
       imageUrl: 'assets/images/hyacinth.jpg',
     ),
@@ -224,195 +254,224 @@ class ProductPage extends StatefulWidget {
     Product(
       id: '32',
       name: 'Impatiens',
-      description: 'A bright impatiens with glossy leaves and bold pink blooms.',
+      description:
+          'A bright impatiens with glossy leaves and bold pink blooms.',
       price: 83,
       imageUrl: 'assets/images/impatiens.jpg',
     ),
     Product(
       id: '33',
       name: 'Indian Hawthorn',
-      description: 'A charming Indian hawthorn shrub with rounded clusters of pink flowers.',
+      description:
+          'A charming Indian hawthorn shrub with rounded clusters of pink flowers.',
       price: 89,
       imageUrl: 'assets/images/indianHawthorn.jpg',
     ),
     Product(
       id: '34',
       name: 'Joe Pye Weed',
-      description: 'A tall joe pye weed with mauve-pink blooms that attract butterflies.',
+      description:
+          'A tall joe pye weed with mauve-pink blooms that attract butterflies.',
       price: 92,
       imageUrl: 'assets/images/joePyeWeed.jpg',
     ),
     Product(
       id: '35',
       name: 'Lady Slipper Orchid',
-      description: 'An exotic lady slipper orchid with graceful pink petals and slipper-shaped blooms.',
+      description:
+          'An exotic lady slipper orchid with graceful pink petals and slipper-shaped blooms.',
       price: 99,
       imageUrl: 'assets/images/ladySlipperOrchid.jpg',
     ),
     Product(
       id: '36',
       name: 'Larkspur',
-      description: 'A tall larkspur with delicate spikes of pink flowers and garden romance.',
+      description:
+          'A tall larkspur with delicate spikes of pink flowers and garden romance.',
       price: 87,
       imageUrl: 'assets/images/larkspur.jpg',
     ),
     Product(
       id: '37',
       name: 'Lisianthus',
-      description: 'A soft lisianthus with rose-like pink blooms and elegant petals.',
+      description:
+          'A soft lisianthus with rose-like pink blooms and elegant petals.',
       price: 92,
       imageUrl: 'assets/images/lisianthus.jpg',
     ),
     Product(
       id: '38',
       name: 'Lotus',
-      description: 'A serene lotus with pale pink petals floating above still water.',
+      description:
+          'A serene lotus with pale pink petals floating above still water.',
       price: 97,
       imageUrl: 'assets/images/lotus.jpg',
     ),
     Product(
       id: '39',
       name: 'Madagascar Periwinkle',
-      description: 'A graceful Madagascar periwinkle with delicate pink petals and glossy foliage.',
+      description:
+          'A graceful Madagascar periwinkle with delicate pink petals and glossy foliage.',
       price: 85,
       imageUrl: 'assets/images/madagascarPeriwinkle.jpg',
     ),
     Product(
       id: '40',
       name: 'Magnolia',
-      description: 'A classic magnolia with large, fragrant blooms and soft pink highlights.',
+      description:
+          'A classic magnolia with large, fragrant blooms and soft pink highlights.',
       price: 98,
       imageUrl: 'assets/images/magnolia.jpg',
     ),
     Product(
       id: '41',
       name: 'Mandevilla',
-      description: 'A tropical mandevilla with bright pink trumpet flowers and climbing vines.',
+      description:
+          'A tropical mandevilla with bright pink trumpet flowers and climbing vines.',
       price: 88,
       imageUrl: 'assets/images/mandevilla.jpg',
     ),
     Product(
       id: '42',
       name: 'Oleander',
-      description: 'A vibrant oleander with clusters of rosy flowers and glossy green leaves.',
+      description:
+          'A vibrant oleander with clusters of rosy flowers and glossy green leaves.',
       price: 86,
       imageUrl: 'assets/images/oleander.jpg',
     ),
     Product(
       id: '43',
       name: 'Orchid',
-      description: 'A striking orchid with vivid pink petals and an exotic, elegant shape.',
+      description:
+          'A striking orchid with vivid pink petals and an exotic, elegant shape.',
       price: 99,
       imageUrl: 'assets/images/orchid.jpg',
     ),
     Product(
       id: '44',
       name: 'Oriental Lily',
-      description: 'A fragrant oriental lily with large pink petals and dramatic blossom form.',
+      description:
+          'A fragrant oriental lily with large pink petals and dramatic blossom form.',
       price: 94,
       imageUrl: 'assets/images/orientalLily.jpg',
     ),
     Product(
       id: '45',
       name: 'Peony',
-      description: 'A lush peony with full pink petals and a richly romantic bloom.',
+      description:
+          'A lush peony with full pink petals and a richly romantic bloom.',
       price: 92,
       imageUrl: 'assets/images/peony.jpg',
     ),
     Product(
       id: '46',
       name: 'Petunia',
-      description: 'A cheerful petunia with soft pink trumpet-shaped flowers and trailing growth.',
+      description:
+          'A cheerful petunia with soft pink trumpet-shaped flowers and trailing growth.',
       price: 79,
       imageUrl: 'assets/images/petunia.jpg',
     ),
     Product(
       id: '47',
       name: 'Phlox',
-      description: 'A fragrant phlox with clusters of sweet pink blooms perfect for garden borders.',
+      description:
+          'A fragrant phlox with clusters of sweet pink blooms perfect for garden borders.',
       price: 82,
       imageUrl: 'assets/images/phlox.jpg',
     ),
     Product(
       id: '48',
       name: 'Ranunculus',
-      description: 'A delicate ranunculus with layered pink petals and a soft, romantic look.',
+      description:
+          'A delicate ranunculus with layered pink petals and a soft, romantic look.',
       price: 95,
       imageUrl: 'assets/images/ranunculus.jpg',
     ),
     Product(
       id: '49',
       name: 'Rhododendron',
-      description: 'A bold rhododendron with clusters of bright pink flowers and lush foliage.',
+      description:
+          'A bold rhododendron with clusters of bright pink flowers and lush foliage.',
       price: 90,
       imageUrl: 'assets/images/rhododendron.jpg',
     ),
     Product(
       id: '50',
       name: 'Rose',
-      description: 'A classic rose bouquet with rich pink petals and timeless romantic appeal.',
+      description:
+          'A classic rose bouquet with rich pink petals and timeless romantic appeal.',
       price: 100,
       imageUrl: 'assets/images/rose.jpg',
     ),
     Product(
       id: '51',
       name: 'Sea Thrift',
-      description: 'A coastal sea thrift with clusters of compact pink blooms atop delicate stems.',
+      description:
+          'A coastal sea thrift with clusters of compact pink blooms atop delicate stems.',
       price: 76,
       imageUrl: 'assets/images/seaThrift.jpg',
     ),
     Product(
       id: '52',
       name: 'Sedum',
-      description: 'A hardy sedum with succulent leaves and dome-shaped pink flower heads.',
+      description:
+          'A hardy sedum with succulent leaves and dome-shaped pink flower heads.',
       price: 74,
       imageUrl: 'assets/images/sedum.jpg',
     ),
     Product(
       id: '53',
       name: 'Snapdragon',
-      description: 'A bright snapdragon with tall spikes of pink blooms that charm any garden bed.',
+      description:
+          'A bright snapdragon with tall spikes of pink blooms that charm any garden bed.',
       price: 82,
       imageUrl: 'assets/images/snapdragon.jpg',
     ),
     Product(
       id: '54',
       name: 'Stargazer Lily',
-      description: 'A dramatic stargazer lily with fragrant, star-shaped pink petals and bold freckling.',
+      description:
+          'A dramatic stargazer lily with fragrant, star-shaped pink petals and bold freckling.',
       price: 97,
       imageUrl: 'assets/images/stargazerLily.jpg',
     ),
     Product(
       id: '55',
       name: 'Statice',
-      description: 'A textured statice with long-lasting clusters of delicate pink flowers.',
+      description:
+          'A textured statice with long-lasting clusters of delicate pink flowers.',
       price: 78,
       imageUrl: 'assets/images/statice.jpg',
     ),
     Product(
       id: '56',
       name: 'Tulip',
-      description: 'A graceful tulip with smooth pink petals and a clean, elegant silhouette.',
+      description:
+          'A graceful tulip with smooth pink petals and a clean, elegant silhouette.',
       price: 88,
       imageUrl: 'assets/images/tulip.jpg',
     ),
     Product(
       id: '57',
       name: 'Verbena',
-      description: 'A trailing verbena with bright pink clusters and a lively garden presence.',
+      description:
+          'A trailing verbena with bright pink clusters and a lively garden presence.',
       price: 81,
       imageUrl: 'assets/images/verbena.jpg',
     ),
     Product(
       id: '58',
       name: 'Vinca',
-      description: 'A resilient vinca with glossy leaves and cheerful pink flowers that bloom all summer.',
+      description:
+          'A resilient vinca with glossy leaves and cheerful pink flowers that bloom all summer.',
       price: 80,
       imageUrl: 'assets/images/vinca.jpg',
     ),
   ];
 
-  ProductPage({super.key});
+  ProductPage({super.key, required this.onAddToCart});
+
+  final void Function(Product) onAddToCart;
 
   @override
   State<ProductPage> createState() => _ProductPageState();
@@ -422,11 +481,12 @@ class _ProductPageState extends State<ProductPage> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      padding: EdgeInsets.symmetric(vertical: 16),
+      padding: const EdgeInsets.symmetric(vertical: 16),
       itemCount: widget.products.length,
       itemBuilder: (context, index) {
         return ProductItemListView(
           item: widget.products[index],
+          onAddToCart: widget.onAddToCart,
         );
       },
     );
