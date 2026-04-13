@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="listview_app"
+        android:label="fajardo_sweets"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
