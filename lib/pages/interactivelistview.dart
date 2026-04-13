@@ -31,7 +31,7 @@ class _InteractiveListViewState extends State<InteractiveListView> {
             },
             background: Container(color: Colors.red,),
             child: ListTile(
-              title: Text('${items[index]}'),
+              title: Text(items[index]),
             ),
           );
         },

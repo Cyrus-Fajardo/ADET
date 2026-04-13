@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:listview_app/model/item.dart';
+import 'package:her_garden/model/item.dart';
 
 class DynamicListView extends StatefulWidget {
   const DynamicListView({super.key});

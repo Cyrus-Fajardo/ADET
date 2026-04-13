@@ -1,10 +1,10 @@
 {
   "roots": [
-    "listview_app"
+    "her_garden"
   ],
   "packages": [
     {
-      "name": "listview_app",
+      "name": "her_garden",
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
@@ -42,7 +42,7 @@
     },
     {
       "name": "cupertino_icons",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "dependencies": []
     },
     {
@@ -165,7 +165,7 @@
     },
     {
       "name": "async",
-      "version": "2.13.0",
+      "version": "2.13.1",
       "dependencies": [
         "collection",
         "meta"
